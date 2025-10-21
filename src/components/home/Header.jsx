@@ -1,14 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import ScrollReveal from 'scrollreveal';
 import { Link } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const navigate = useNavigate();
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
-
+ const handleBookClick = () => {
+    navigate("/#book"); // نحدد الهـاش #book
+  };
   useEffect(() => {
     const scrollRevealOption = {
       distance: "50px",
@@ -52,8 +56,15 @@ function Header() {
           joy with every bite and sip.
         </p>
         <div className="header__btns">
-          <button className="btn">Let's Eat</button>
-          <button className="btn">Book a Table</button>
+          <button className="btn">
+  <Link to="/menu">
+             Let's Eat
+          </Link>
+          </button>
+             
+          <button className="btn"  onClick={handleBookClick}>Book a Table
+            
+          </button>
         </div>
       </div>
     </header>

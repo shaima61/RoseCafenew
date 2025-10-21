@@ -3,7 +3,7 @@ import React from 'react';
 function Book() {
   return (
   
-    <section className="book">
+    <section className="book" id="book">
       <div className="section__container book__container">
         <form action="/">
           <h4>Book a Table</h4>
@@ -28,7 +28,7 @@ function Book() {
             </div>
           </div>
           <div className="input__row">
-            <button className="btn" type="submit">BOOK A TABLE</button>
+            <button className="btn" type="button">BOOK A TABLE</button>
           </div>
         </form>
       </div>
