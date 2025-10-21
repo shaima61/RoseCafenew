@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom'; // 1. استيراد مكونات الـ Router
+import { HashRouter, Routes, Route } from 'react-router-dom'; // 1. استيراد مكونات الـ Router
 import './index.css';
 
 // تأكد أنك قمت بإنشاء مكونات الصفحات
@@ -11,7 +11,7 @@ import Registerpage from './pages/register'; // (مثال، إذا قمت بإن
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<HomePage />} /> {/* 2. تحديد المسار '/' للصفحة الرئيسية */}
         <Route path="/about" element={<AboutPage />} /> {/* 3. تحديد المسار '/about' لصفحة "عنا" */}
@@ -20,7 +20,7 @@ function App() {
         <Route path="/register" element={<Registerpage />} /> {/* 4. تحديد المسار '/menu' لصفحة "القائمة" */}
         {/* أضف المزيد من المسارات هنا */}
       </Routes>
-    </BrowserRouter>
+   </HashRouter>
   );
 }
 
