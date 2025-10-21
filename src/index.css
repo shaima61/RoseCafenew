@@ -74,7 +74,7 @@ body {
 
 header {
   min-height: 75vh;
-  background-image: url("assets/header-bg.jpg");
+  background-image: url("./assets/header-bg.jpg");
   
   background-position: center center;
   background-size: cover;
@@ -248,7 +248,7 @@ nav {
 
 .book {
   margin-block: 5rem;
-  background-image: url("assets/book.jpg");
+  background-image: url("./assets/book.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -477,7 +477,7 @@ footer {
 }
 .containerdoz {
   min-height: 100vh;
-  background-image: url("assets/header-bg.jpg");
+  background-image: url("./assets/header-bg.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
