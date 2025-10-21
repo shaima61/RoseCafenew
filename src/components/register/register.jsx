@@ -33,7 +33,7 @@ function registeruser() {
           </div>
           <a href="#" className="forgot__password">Forgot Password?</a>
         </div>
-        <button className="login__btn">registeruser</button>
+        <button className="login__btn"  type="button">registeruser</button>
         <div className="register">
           Don't have an account? <Link to="/login"> login </Link>
         </div>

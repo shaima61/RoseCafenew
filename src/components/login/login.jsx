@@ -33,7 +33,7 @@ function Loginuser() {
           </div>
           <a href="#" className="forgot__password">Forgot Password?</a>
         </div>
-        <button className="login__btn">Login</button>
+        <button className="login__btn" type="button">Login</button>
         <div className="register">
           Don't have an account?<Link to="/register"> register </Link>
         </div>
