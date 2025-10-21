@@ -1,15 +1,22 @@
 import React from 'react';
 import ScrollReveal from 'scrollreveal';
 import { Link } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 
 function registeruser() {
 
  
+const navigate = useNavigate();
 
+  const handleRegister = (e) => {
+    e.preventDefault(); // منع إعادة تحميل الصفحة
+    // هنا ممكن تضيف أي عملية تسجيل فعلية قبل الانتقال
+    navigate("/"); // يذهب إلى صفحة Home
+  };
  
   return (
      <div className="containerdoz">
-      <form action="/" className="login__form">
+      <form action="/" className="login__form" onSubmit={handleRegister}>
         <h1>Register</h1>
         <div className="input__row">
           <span><i className="ri-user-3-line"></i></span>
@@ -33,7 +40,7 @@ function registeruser() {
           </div>
           <a href="#" className="forgot__password">Forgot Password?</a>
         </div>
-        <button className="login__btn"  type="button">registeruser</button>
+        <button className="login__btn"  type="submit">registeruser</button>
         <div className="register">
           Don't have an account? <Link to="/login"> login </Link>
         </div>
