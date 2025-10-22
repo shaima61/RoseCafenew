@@ -25,7 +25,9 @@ function Coffee_about () {
 
   return (
   <section className="section__container about__container" id="about">
-        
+       <div className="about__image">
+        <img src="assets/about2.jfif" alt="about" />
+      </div>  
       <div className="about__content ">
         <h2 className="section__header">About Our Pastry World</h2>
         <div>
@@ -38,9 +40,7 @@ function Coffee_about () {
          
         </div>
       </div>
-    <div className="about__image">
-        <img src="assets/about2.jfif" alt="about" />
-      </div>
+   
     </section>
   );
 }
