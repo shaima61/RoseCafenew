@@ -112,7 +112,7 @@ nav {
   flex-direction: column;
   gap: 2rem;
   padding: 2rem;
-  background-color: #f2994a;
+  background-color: #261174;
   transition: transform 0.5s;
   z-index: -1;
 }
