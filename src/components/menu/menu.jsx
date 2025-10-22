@@ -12,7 +12,7 @@ function Menu() {
             <img src="assets/menu-1.jpg" alt="menu" />
             <div className="menu__card__content">
               <h4>Caramel Pecan Cinnamon Roll</h4>
-              <h3>$14.00</h3>
+              <h3>$140.00</h3>
             </div>
           </div>
           <div className="menu__card">
