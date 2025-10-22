@@ -49,7 +49,7 @@ function Header() {
       </nav>
 
       <div className="section__container header__container" id="home">
-        <h1>Goooood Pastry & Coffee For a  Day</h1>
+        <h1>Good Pastry & Coffee For a  Day</h1>
         <p>
           Start your day on a delightful note with our freshly baked pastries
           and premium coffee. At PastryWorld, we believe in crafting moments of
