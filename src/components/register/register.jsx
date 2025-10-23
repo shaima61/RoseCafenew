@@ -22,7 +22,7 @@ const navigate = useNavigate();
           <span><i className="ri-user-3-line"></i></span>
           <div className="input__group">
             <input type="text" placeholder=" " />
-            <label for="name">Nametgg</label>
+            <label for="name">Name</label>
           </div>
         </div>
         <div className="input__row">
@@ -38,7 +38,6 @@ const navigate = useNavigate();
             <input type="checkbox" id="check" />
             <label for="check">Remember me</label>
           </div>
-          <a href="#" className="forgot__password">Forgot Password?</a>
         </div>
         <button className="login__btn"  type="submit">registeruser</button>
         <div className="register">

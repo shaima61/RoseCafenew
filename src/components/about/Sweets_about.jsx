@@ -25,9 +25,7 @@ function Sweets_about() {
 
   return (
   <section className="section__container about__container" id="about">
-      <div className="about__image">
-        <img src="assets/about.png" alt="about" />
-      </div>
+    
       <div className="about__content">
         <h2 className="section__header">About Our Pastry World</h2>
         <div>
@@ -44,6 +42,9 @@ function Sweets_about() {
           </p>
     
         </div>
+      </div>
+        <div className="about__image">
+        <img src="assets/about.png" alt="about" />
       </div>
     </section>
   );

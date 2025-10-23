@@ -22,7 +22,7 @@ const navigate = useNavigate();
           <span><i className="ri-user-3-line"></i></span>
           <div className="input__group">
             <input type="text" placeholder=" " />
-            <label for="name">Nameee</label>
+            <label for="name">Name</label>
           </div>
         </div>
         <div className="input__row">
